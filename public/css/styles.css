@@ -1,0 +1,291 @@
+
+
+html, body {
+    height: 100%;
+    width: 100%;
+    margin:0px:
+    padding: 0px;
+}
+
+.navbar {
+    position: relative !important;
+    min-height: 50px !important;
+    margin-bottom: 0px !important;
+    border: 0px solid transparent !important;
+    border-radius: 0px !important;
+}
+
+/* =========================== FACEBOOK ========================= */
+
+
+.fb-comments {
+    /*width: 80%;*/
+    margin: 0px auto;
+    text-align: center;
+}
+
+
+/* ======================= FB END ===================== */
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+/*.comment {
+    margin-top: 75%;
+}*/
+.row {
+    width: 100%;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+
+.inputBox {
+    margin-top: 7%;
+    margin-bottom: 1%;
+    padding: 5%;
+    height: 100%;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.socialTabs {
+    padding-top: 25px;
+    margin-top: 3%;
+    height: 1000px;
+    border-left: 2px solid black;
+    background-color: lightgreen;
+}
+
+.likes,
+.dislikes {
+    background: #F65A5B ;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    /*font-size: 15px;*/
+    /*line-height: 42px;
+    min-width: 42px;
+    height: 42px;*/
+    padding: 15px 5px;
+    border-radius: 50%;
+    /*margin: 0 -30px 0 45px;*/
+    text-align: center;
+    font-weight: 200;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    transition: background 500ms;
+    border: none;
+    margin-top: 15px;
+}
+
+.likes:hover,
+.dislikes:hover {
+    color: #F65A5B ;
+    background: rgba(246, 90, 91, 0.25);
+    transition: background 500ms;
+}
+
+.rating p {
+    margin-top: 3%;
+}
+
+.mdl-layout__header {
+    min-height: 50px !important;
+    max-height: 52px !important;
+}
+
+.mdl-layout__header-row {
+    height: 50px !important;
+}
+
+
+.toolbardemoBasicUsage md-toolbar md-icon.md-default-theme {
+  color: white;
+}
+
+a {
+    cursor:pointer;
+}
+
+.mdl-layout__drawer-button {
+    color: lightcoral !important;
+}
+
+/* ==================== REGISTRATION / LOGIN FORM =====================*/
+
+.formStyle {
+    background: url(../img/rapidmapper2.png) no-repeat center center;
+    background-size: cover;
+    margin: 0px;
+    height: 95%;
+    width: 100%;
+}
+
+.formMar {
+    margin-top: 5%;
+}
+
+.rowMar {
+     margin-right: 0px !important;
+     margin-left: 0px !important;
+}
+
+.formStyle form {
+    background-color: rgba(15, 169, 189, 0.8);
+    padding: 15px;
+    margin: 0px;
+}
+.center-block {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 15px;
+    width: 33.33%;
+    border-radius: 50%;
+}
+
+.nav-pills > li > a {
+    background-color: rgba(15, 169, 189, 0.5);
+    border-radius: 0px !important;
+    color: #fff;
+}
+
+.nav-pills > li > a:hover {
+    background-color: rgba(15, 169, 189, 0.9) !important;
+    color: #fff;
+}
+
+.nav-pills > li.active > a {
+    background-color: rgba(15, 169, 189, 0.8) !important;
+}
+
+.btn-default {
+    border-radius: 0px !important;
+}
+
+/*=========================== PROFILE ==========================*/
+
+
+.proNav {
+    background-color: #337ab7;
+    border-color: #337ab7;
+    border-radius: 0px;
+}
+
+.abtNav {
+    background-color: #337ab7;
+    border-color: #337ab7;
+    border-radius: 0px;
+    margin-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+    color: whitesmoke;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: whitesmoke;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #777;
+}
+
+.proNav a {
+    color: white;
+}
+
+.proCon {
+    margin-top: 3%;
+}
+
+.jumboPro {
+    width: 85%;
+}
+
+.jumboPro .jumbotron {
+    margin-top: 8%;
+    padding-bottom: 18%;
+    padding-left: 0px;
+    /*background: url(../img/batman.jpg);
+    background-size: cover;*/
+}
+
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    /*width: 275%;*/
+    margin-bottom: 0px;
+    padding: 17px 12px;
+}
+
+.liPost {
+    display: block;
+    padding-top: 3%;
+    padding-bottom: 15%;
+    /*border-bottom: 1px solid lightgray;*/
+}
+
+.postBtn {
+    margin-top: 5px;
+}
+
+.editInput {
+    margin-top: 7%;
+}
+
+.col-sm-1 {
+    width: 6%;
+}
+
+.glyphicon-remove {
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: lightgray;
+}
+
+.glyphicon-remove:hover {
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: gray;
+}
+
+.glyphicon-pencil {
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: lightgray;
+}
+
+.glyphicon-pencil:hover {
+    background-color: transparent;
+    border: 0px solid transparent;
+    color: gray;
+}
+
+/*.nav > li > a:focus,
+.nav > li > a:active {
+    text-decoration: none;
+    background-color: #337ab7;
+    color: whitesmoke;
+}*/
+
+/* ===================== PHOTOS . HTML ======================= */
+
+
+.photosThumb {
+    margin-top: 10px;
+}
+
+.jumbotron.fb-jumbo {
+    background: url(../img/fb-jumbo.jpg) no-repeat center center;
+    background-size: cover;
+    height: 400px;
+}

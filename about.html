@@ -1,0 +1,41 @@
+<nav class="navbar navbar-default abtNav">
+  <div class="container-fluid">
+    <brand-dir></brand-dir>
+    <form class="navbar-form navbar-right" role="search">
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputEmail3">User Name</label>
+        <input type="text" class="form-control" placeholder="User Name">
+      </div>
+      <div class="form-group">
+        <label class="sr-only" for="exampleInputPassword3">Password</label>
+        <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+    </div>
+      <button type="submit" class="btn btn-default">Sign in</button>
+    </form>
+  </div>
+</nav>
+
+<div class="bgImg">
+    <div class="container">
+        <div class="card card-container">
+            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+            <img id="profile-img" class="profile-img-card" src="//ssl.gstatic.com/accounts/ui/avatar_2x.png" />
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin">
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="text" class="form-control" placeholder="Full Name" ng-model="profileInfo.name">
+                <input type="email" id="inputEmail" class="form-control" placeholder="Email" ng-model="profileInfo.email">
+                <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+                <input type="text" class="form-control" placeholder="User Name" ng-model="profileInfo.user">
+                <input type="text" class="form-control" placeholder="Age" ng-model="profileInfo.age" required>
+                <input type="text" class="form-control" placeholder="Phone Number" ng-model="profileInfo.phone">
+                <input type="text" class="form-control" placeholder="Work" ng-model="profileInfo.work">
+                <input type="text" class="form-control" placeholder="Home Town" ng-model="profileInfo.places">
+                <input type="text" class="form-control" placeholder="Education" ng-model="profileInfo.education">
+                <!-- <textarea class="form-control" rows="3" ng-model="profileInfo.family">{{profileInfo.family}}</textarea>
+                <textarea class="form-control" rows="3" ng-model="profileInfo.top">{{profileInfo.top}}</textarea> -->
+                <button class="btn btn-primary btn-lg btn-block btn-signin" type="submit" ui-sref="profile">Sign Up</button>
+            </form><!-- /form -->
+        </div><!-- /card-container -->
+    </div><!-- /container -->
+</div>

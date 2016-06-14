@@ -1,0 +1,36 @@
+/* app css stylesheet */
+
+/*body {
+    padding-top: 80px;
+    padding-bottom: 180px;
+}*/
+
+.view {
+    margin-top: 5%;
+}
+
+.weather.panel {
+    /*font-weight: lighter !important;*/
+}
+
+.form-group, .weatherSch {
+    float: right;
+    margin-left: 5px;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+
+.weatherMg {
+    margin-top: 5%;
+}
+
+.weather.panel .panel-heading {
+    font-weight: lighter !important;
+    font-size: 1.2em;
+    background-color: #337ab7 !important;
+    border-color: #337ab7 !important;
+}
+
+.weather.panel .panel-footer {
+    font-weight: lighter !important;
+}

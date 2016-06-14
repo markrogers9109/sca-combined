@@ -1,0 +1,33 @@
+{
+  "name": "sca-combined",
+  "version": "1.0.0",
+  "description": "Geekwise Beta Class Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markrogers9109/sca-combined.git"
+  },
+  "author": "Mark Rogers",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markrogers9109/sca-combined/issues"
+  },
+  "homepage": "https://github.com/markrogers9109/sca-combined#readme",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "express-jwt": "^3.4.0",
+    "express-session": "^1.13.0",
+    "jsonwebtoken": "^7.0.0",
+    "mongoose": "^4.4.20",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0"
+  },
+  "devDependencies": {},
+  "keywords": [
+    "beta-class"
+  ]
+}
