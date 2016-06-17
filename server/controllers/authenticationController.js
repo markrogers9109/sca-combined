@@ -11,8 +11,8 @@ module.exports.register = function(req, res){
     user.username = req.body.username;
     user.email = req.body.email;
     user.name = req.body.name;
-    user.zipcode = req.body.zipcode;
-    user.twitter = req.body.twitter;
+    // user.zipcode = req.body.zipcode;
+    // user.twitter = req.body.twitter;
 
     // Generate the hash
     user.setPassword(req.body.password);

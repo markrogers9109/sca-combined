@@ -16,4 +16,4 @@ passport.use(new LocalStrategy(
     }
 ));
 
-console.log('config.js was loaded.')
+console.log('config.js was loaded.');

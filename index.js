@@ -1,3 +1,5 @@
+
+
 var express = require('express');           // Required for routing
 var bodyParser = require('body-parser');    // Middleware for populating the req.body property in JSON POST requests
 var passport = require('passport');         // Middleware for handling authentication
@@ -19,15 +21,16 @@ require('./server/config/passport');
 // app.use(passport.session());
 
 
+
 var routesAPI = require('./server/routes/api');     // Routes needs to be brought in after the models.
 
 // Allows static pages to be served from the public folder
 app.use(express.static('public'));
 
 // Redirect root requests to superCoolApp.html
-// app.get('/', function(req, res){
-//      res.redirect('/index.html');
-//  });
+app.get('/', function(req, res){
+     res.redirect('/index.html');
+ });
 
 // Catch API requests
 app.use('/api', routesAPI);

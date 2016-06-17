@@ -1,9 +1,9 @@
 /* SUPER COOL APP API ROUTER */
-var express = require('express');           
+var express = require('express');
 var router = express.Router();
 var jwt = require('express-jwt');
 var auth = jwt({
-    secret: 'MY_SECRET',    // Replace MY_SECRET
+    secret: 'my_evots',    // Replace MY_SECRET
     userProperty: 'payload'
 });
 

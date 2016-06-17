@@ -1,3 +1,5 @@
+
+
 var mongoose = require('mongoose');
 
 // Define a Comments schema for use as sub-document.
@@ -34,3 +36,8 @@ featureSchema.methods.downVote = function(){
 
 // Compile the schema into a model with Mongoose
 mongoose.model('Feature', featureSchema);
+
+
+
+
+// end

@@ -1,0 +1,16 @@
+{
+  "name": "sca-combined",
+  "description": "Geekwise Beta Class Project",
+  "main": "index.js",
+  "authors": [
+    "Mark Rogers"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "beta-class"
+  ],
+  "homepage": "https://github.com/markrogers9109/sca-combined",
+  "dependencies": {
+    "angular-aside-menu": "^1.3.1"
+  }
+}

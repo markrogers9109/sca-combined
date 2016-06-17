@@ -97,12 +97,13 @@ angular.module('superCoolApp')
             this.getFeatures(callback);
             promise = $interval(me.getFeatures, 3000);
         };
+        this.start();
 
     }])
 
 
     /* Features Controller */
-    .controller('FeaturesController', ['superCoolAppDatabaseService', 'authentication', function(superCoolAppDatabaseService, authentication){
+    .controller('featureCtrl', ['superCoolAppDatabaseService', 'authentication', function(superCoolAppDatabaseService, authentication){
         // Bind data
         var me = this;
         this.data = superCoolAppDatabaseService.data;

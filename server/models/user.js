@@ -20,7 +20,7 @@ var userSchema = new mongoose.Schema({
     },
     zipcode: String,        // Weather API
     twitter: String,        // Twitter API
-    hash: String,           
+    hash: String,
     salt: String
 });
 
@@ -55,7 +55,7 @@ userSchema.methods.generateJWT = function(){
         zipcode: this.zipcode,
         twitter: this.twitter,
         exp: parseInt(expiry.getTime()/1000)
-    }, "MY_SECRET");  // Replace MY_SECRET
+    }, "my_evots");  // Replace MY_SECRET
 }
 
 // Compile the User schema with mongoose
